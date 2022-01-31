@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    background-color: purple;
+    border-radius: 12px;
+    margin-top: 15%;
+    padding: 15px;
+}
+.nav{
+    padding: 15px 15px 15px 0;
+}
+
+.nav ul {
+    display: flex;
+}
+.nav ul li {
+    list-style: none;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: darkblue;
+    padding: 25px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.nav ul li a:hover{
+    background: cyan;
+    color: white;
+}
+.nav ul li a:first-child{
+    padding-left: none;
+}
+.contant h2{
+    display: block;
+    padding: 15px 0;
+}
+.contant p{
+    text-align: justify;
+}
